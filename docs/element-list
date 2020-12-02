@@ -1,0 +1,4 @@
+org.fundacionjala.core.client
+org.fundacionjala.core.config
+org.fundacionjala.core.throwables
+org.fundacionjala.core.utils
