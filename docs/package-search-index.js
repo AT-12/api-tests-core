@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.fundacionjala.core.client"},{"l":"org.fundacionjala.core.config"},{"l":"org.fundacionjala.core.throwables"},{"l":"org.fundacionjala.core.utils"}]
