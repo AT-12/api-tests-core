@@ -69,6 +69,17 @@ public final class RequestManager {
     }
 
     /**
+     * Makes a PATCH request.
+     *
+     * @param endpoint
+     * @param patch
+     * @return a response object.
+     */
+    public static Response patch(final String endpoint, final String patch) {
+        return given().spec(requestSpec).body(patch).when().patch(endpoint);
+    }
+
+    /**
      * Makes a DELETE request.
      *
      * @param endpoint
