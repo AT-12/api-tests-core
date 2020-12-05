@@ -18,7 +18,7 @@ public final class Mapper {
     public static String mapValue(final String value, final Map<String, String> storedValues) {
         String val = value;
         for (Map.Entry<String, String> entry : storedValues.entrySet()) {
-            val = val.replace("{" + entry.getKey() + "}", entry.getValue());
+            val = val.replace("{" + entry.getKey() + "}", String.format("%s", entry.getValue()));
         }
         return val;
     }
